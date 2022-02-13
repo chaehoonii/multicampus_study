@@ -1,1 +1,0 @@
-# multicampus_study
