@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class baekjoon1417 {
 
-	static int go(int d, int[] arr, int count) {
+	static int s(int d, int[] arr, int count) {
 		Arrays.sort(arr);
 
 		int last = arr.length - 1;
@@ -14,7 +14,7 @@ public class baekjoon1417 {
 		}
 
 		arr[last]--;
-		return go(d + 1, arr, count + 1);
+		return s(d + 1, arr, count + 1);
 	}
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
@@ -35,7 +35,7 @@ public class baekjoon1417 {
 			return;
 		}
 
-		System.out.println(go(d, arr, 0));
+		System.out.println(s(d, arr, 0));
 
 	}
 
