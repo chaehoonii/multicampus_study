@@ -1,9 +1,10 @@
+package studyjava;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class baekjoon1417 {
+public class Baekjoon1417 {
 
 	static int s(int d, int[] arr, int count) {
 		Arrays.sort(arr);

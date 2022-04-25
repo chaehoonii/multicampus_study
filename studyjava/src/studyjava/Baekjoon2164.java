@@ -1,8 +1,9 @@
+package studyjava;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class baekjoon2164 {
+public class Baekjoon2164 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -20,10 +21,10 @@ public class baekjoon2164 {
 
         while (queue.size()>1){
 
-            queue.poll(); //Å¥¿¡¼­ »©±â
+            queue.poll(); //Å¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
             int tmp = queue.poll();
-            queue.add(tmp); ////µÚ·Î ³Ö±â
+            queue.add(tmp); ////ï¿½Ú·ï¿½ ï¿½Ö±ï¿½
 
         }
         return queue.poll();

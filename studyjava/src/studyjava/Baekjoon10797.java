@@ -1,6 +1,7 @@
+package studyjava;
 import java.util.Scanner;
 
-public class baekjoon10797 {
+public class Baekjoon10797 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);

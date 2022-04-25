@@ -1,6 +1,7 @@
+package studyjava;
 import java.util.Scanner;
 
-public class baekjoon15734 {
+public class Baekjoon15734 {
 
 	public static void main(String[] args) {
 		
@@ -14,7 +15,7 @@ public class baekjoon15734 {
 			System.out.println(R+L+B/2*2);
 		}
 		else if(R>L) {
-			//�ּҰ�*2 
+			//�ּҰ�*2 
 		}
 
 	}

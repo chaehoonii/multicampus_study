@@ -1,8 +1,9 @@
+package studyjava;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class baekjoon2605 {
+public class Baekjoon2605 {
     static void swap(int[] arr, int start, int end) {
         for(int i = 0; i < start; i++) {
             int tmp = arr[end];
