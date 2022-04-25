@@ -41,7 +41,11 @@ public class Baekjoon1159 {
 						}
 					}
 					
-					//
+					//비교할 때 같은 횟수가 4 이상이면 배열 중 5개가 같은 것.
+					if(count >= 4) {
+						result += arr[i];
+					}
+				}
 					
 				if(result.equals("")) {
 					System.out.println("PREDAJA");
