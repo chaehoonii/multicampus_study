@@ -17,7 +17,7 @@ public class Baekjoon1924 {
 			for(int i=1;i<x;i++) { // 입력 받은 월의 이전 월까지 총 일수를 구한다.
 				sum+=month[i];
 			}
-			sum+=y; // 입력받은 일자를 더해준다.
+			sum+=y; // 입력 받은 일자를 더해준다.
 			
 			switch(sum % 7) { //7로 나눈 후 나머지 값을 통해 날짜 분류
 				case 0:
