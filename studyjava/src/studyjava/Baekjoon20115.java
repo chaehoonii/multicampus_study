@@ -1,6 +1,9 @@
 package studyjava;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 
 /*
 1. 임의의 서로 다른 두 에너지 드링크를 고른다.
@@ -12,15 +15,15 @@ import java.util.Scanner;
 */
 public class Baekjoon20115 {
 	//total = 음료수 총 합, amount = 에너지 드링크 양
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int N = sc.nextInt();
+	public static void main (String[] args) throws IOException {
+		BufferedReader sc = new BufferedReader(new InputStreamReader(System.in));
+		int N = Integer.parseInt(sc.readLine());
 		int[] arr = new int[N];
 		int max= 0;
 		double total = 0;
-		
+		String[] nums = sc.readLine().split(" ");
 		for(int i=0; i<arr.length;i++) {
-			int amount = sc.nextInt();
+			int amount = Integer.parseInt(nums[i]);
 			if (amount>max) {
 				max = amount;
 			}
@@ -34,5 +37,4 @@ public class Baekjoon20115 {
 		total += max;
 		System.out.println(total);
 	}
-
 }
