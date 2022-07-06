@@ -25,11 +25,11 @@ public class Baekjoon10451 {
 			
 			st = new StringTokenizer(br.readLine());
 			for(int i = 1; i <= line; i++) {
-				int v1 = i;
-				int v2 = Integer.parseInt(st.nextToken());
+				int p1 = i;
+				int p2 = Integer.parseInt(st.nextToken());
 				
-				list[v1].add(v2);
-				list[v2].add(v1);
+				list[p1].add(p2);
+				list[p2].add(p1);
 			}
 			
 			int count = 0;
